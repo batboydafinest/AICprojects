@@ -1,0 +1,11 @@
+.on {
+  background-color: red;
+}
+
+.win {
+  visibility: hidden;
+}
+
+.won {
+  visibility: hidden;
+}
