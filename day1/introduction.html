@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <title> About Justin Wong </title>
+    <style>
+        body{
+            font-size: 150%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: rgb(0,0,0);
+            color: rgb(255,255,255);
+        }
+        #portrait{
+            float:left;
+            padding: 15px;
+        }
+        #page{
+            margin: auto 10px auto 10px;
+            padding: 20px;
+        }
+        p{
+            padding: 10px;
+            line-height: 1.4em; 
+        }
+        h1{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="page">
+    <h1> The Real Me </h1>
+    <div id="portrait"><img src ="913637.jpg" alt="Yearbook Picture"/> </div> 
+    <p> 
+    Hello! My name is Justin Wong. I am 15 years old and will be a sophmore at Head Royce School this fall. My favorite subjects are math and computer science. I play competitive soccer for the Alameda Soccer Club, while playing basketball recreationally. I also enjoy playing video games in my spare time, with some of my favorites being Fortnite, League of Legends, Minecraft, and Overwatch.
+    </p>
+    <hr />
+
+    <h1> The Tech Me </h1>
+    <p>
+    I started coding in 6th or 7th grade when I joined a class that programmed with a Raspberry PI using bootstrap and Python. I then transitioned to Java, my main and favorite programming language, which I was introduced to in the Programming in Java <abbr title="Academic Talent Development Program"> ATDP </abbr> class and continued during the school year in a <abbr title="Mobile Object Oriented Design"> MOOD </abbr> class. Finally, I was exposed to <abbr title="Hypertext Markup Language"> HTML </abbr> and <abbr title="Cascading Style Sheets"> CSS </abbr>, which I self-taught myself through the book, <em> HTML and CSS: Design and Build Websites</em>. Some of my most notable coding projects include...
+    </p>
+    <ul>
+        <li> Scrabble Cheater </li>
+        <li> Chat Webpage </li>
+        <li> Hangman Game </li>
+        <li> Minesweeper Game </li>
+    </ul>
+    <p>
+    I hope to further expand my coding knowledge through this Web Development class. 
+    </p>
+
+    <hr />
+
+<h1> Survey </h1>
+<form action = "https://gse6.soe.berkeley.edu:444/4DACTION/EchoInput" method = "get">
+    <fieldset>
+        <legend> Your Details: </legend>
+        <label> Name: 
+            <input type = "text" name = "name" />
+        </label>
+        <br />
+        <label> Date:
+            <input type = "date" name = "timeCompleted" /> 
+        </label>
+            <br />
+        Grade you were in:
+            <input type = "radio" name = "grade" value = "6th" checked = "checked" /> 6th
+            <input type = "radio" name = "grade" value = "7th" /> 7th
+            <input type = "radio" name = "grade" value = "8th" /> 8th
+            <input type = "radio" name = "grade" value = "9th" /> 9th
+            <input type = "radio" name = "grade" value = "10th" /> 10th
+            <input type = "radio" name = "grade" value = "11th" /> 11th
+            <input type = "radio" name = "grade" value = "12th" /> 12th
+    </fieldset>
+
+    <fieldset>
+        <legend> Your Personality: </legend>
+        <label> Favorite subject:
+            <select name = "favSubject">
+                <option value = "Math"> Math </option>
+                <option value = "History"> History </option>
+                <option value = "Science"> Science </option>
+                <option value = "English"> English </option>
+                <option value = "Foreign Language"> Foreign Language </option>
+                <option value = "Arts"> Arts </option>
+                <option value = "PE"> PE </option>
+            </select>
+        </label>
+        <br />
+        What sports have you played:
+            <br /> 
+            <input type = "checkbox" name = "sport" value = "soccer" />  soccer
+            <input type = "checkbox" name = "sport" value = "basketball" />  basketball
+            <input type = "checkbox" name = "sport" value = "baseball" />  baseball
+            <input type = "checkbox" name = "sport" value = "tennis" />  tennis
+            <input type = "checkbox" name = "sport" value = "swimming" />  swimming
+            <input type = "checkbox" name = "sport" value = "eSport" />  eSport
+        <br />
+        <label> What is the funniest joke you have ever heard?
+            <br />
+            <textarea name = "funnyJoke"> Insert funny joke... </textarea>
+        </label>
+        <br />
+        <label> Fortnite wins:
+            <input type = "number" name = "numWins" value = "0" />
+        </label>
+
+    </fieldset>
+    <input type = "submit" name = "submit" value = "submit" />
+</form>
+</div>
+</body>
+</html>
