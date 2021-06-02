@@ -1,0 +1,49 @@
+td {
+    height: 15px;
+    width: 15px;
+    border: none;
+    padding: 0px;
+    margin: 0;
+}
+.ground{
+  background-image: url('https://atdpsites.berkeley.edu/jwong/Project2/images/grass.jpg');
+}
+table {
+  border-collapse: collapse;
+}
+
+td.building {
+  background-color: gray;
+}
+
+td.memecenterentrance {
+  background-color: maroon;
+}
+
+td.gymentrance {
+  background-color: maroon;
+}
+
+td.labentrance {
+  background-color: maroon;
+}
+
+.redhat {
+  background-image: url('https://atdpsites.berkeley.edu/jwong/Project2/images/redhat.jpg');
+}
+
+button.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+
+button#battle{
+  color: initial;
+  background-color: gray;
+  background: gray;
+  border: 1px solid black;
+  font-size: initial;
+  width: initial;
+  height: initial;
+}

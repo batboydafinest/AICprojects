@@ -1,0 +1,77 @@
+.background{
+background-image: url('https://atdpsites.berkeley.edu/apadmawar/aic/project2/images/background.jpg');
+background-color: black;
+}
+.mainpage{
+width: 1200px;
+background-color: rgb(250,250,250);
+margin: auto;
+opacity: .99;
+padding: 45px;
+border-radius: 7px;
+}
+input:invalid{
+  border: 1px solid #ff0000;
+}
+img#mememonwords, img#subtitle, img#mememonWallpaper{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img#mememonWallpaper{
+  width: 70%;
+  padding: 2%;
+}
+img#mememonwords{
+  width: 90%;
+  height: 90%;
+  padding-top: 2%;
+}
+img#subtitle{
+  width: 55%;
+  height: 55%;
+  padding-bottom: 2%;
+}
+button, input[type="submit"]{
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #d01d10;
+  background: #d01d10;
+    background: -moz-linear-gradient(top, #f36d64 0%, #d01d10 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f36d64), color-stop(100%, #d01d10));
+    background: -webkit-linear-gradient(top, #f36d64 0%, #d01d10 100%);
+    background: -o-linear-gradient(top, #f36d64 0%, #d01d10 100%);
+    background: -ms-linear-gradient(top, #f36d64 0%, #d01d10 100%);
+    background: linear-gradient(to bottom, #f36d64 0%, #d01d10 100%);
+  border: 1px solid #d01d10;
+  font-size: 1em;
+}
+button, input[type="submit"]{
+  width: 30%;
+  height: 2.5%;
+}
+button#register, button#login{
+  margin: 0.5%;
+  padding: 1%;
+  font-size: 2em;
+  align: center;
+  width: 100%;
+  height: 60%;
+}
+button:hover, input[type="submit"]:hover{
+  background: #d01d10;
+}
+fieldset{
+  border-radius: 7px;
+}
+div#gamealerts{
+  margin-top: 2%;
+  border-style: solid;
+  height: 20%;
+  border-radius: 7px;
+  overflow-y: scroll
+}
+
+.none {
+  display: none;
+}

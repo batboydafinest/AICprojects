@@ -1,0 +1,58 @@
+td {
+    height: 15px;
+    width: 15px;
+    border: none;
+    padding: 0px;
+    margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.redhat {
+  background-image: url('https://atdpsites.berkeley.edu/jwong/Project2/images/redhat.png');
+}
+
+.pinkhat {
+  background-image: url('https://atdpsites.berkeley.edu/jwong/Project2/images/pinkhat.png');
+}
+
+.ground {
+  background-color: #f6f0de;
+}
+
+.building {
+  background-color: #fafafa;
+}
+
+.homeexit {
+  background-color: maroon;
+}
+
+.table{
+  background-color: #72622f;
+}
+
+.bed {
+  background-color: red;
+}
+
+.pillow {
+  background-color: white;
+}
+
+button.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+button#battle{
+  color: initial;
+  background-color: gray;
+  background: gray;
+  border: 1px solid black;
+  font-size: initial;
+  width: initial;
+  height: initial;
+}

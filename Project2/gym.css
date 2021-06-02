@@ -1,0 +1,55 @@
+td {
+    height: 15px;
+    width: 15px;
+    border: none;
+    padding: 0px;
+    margin: 0;
+}
+.floor{
+  background-color: lightgray;
+}
+table {
+  border-collapse: collapse;
+}
+
+td.building {
+  background-color: gray;
+}
+
+td.gymexit {
+  background-color: maroon;
+}
+
+td.oneway {
+  background-color: blue;
+}
+
+.redhat {
+  background-image: url('https://atdpsites.berkeley.edu/jwong/Project2/images/redhat.png');
+}
+
+.greenhat {
+  background-image: url('https://atdpsites.berkeley.edu/jwong/Project2/images/green.png');
+}
+
+.darkgreen {
+  background-image: url('https://atdpsites.berkeley.edu/jwong/Project2/images/dark.png');
+}
+
+button.hidden {
+  display: none;
+}
+
+button#battle{
+  color: initial;
+  background-color: gray;
+  background: gray;
+  border: 1px solid black;
+  font-size: initial;
+  width: initial;
+  height: initial;
+}
+
+.trainer {
+  display: none;
+}

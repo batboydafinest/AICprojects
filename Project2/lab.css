@@ -1,0 +1,49 @@
+td {
+    height: 15px;
+    width: 15px;
+    border: none;
+    padding: 0px;
+    margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.redhat {
+  background-image: url('https://atdpsites.berkeley.edu/jwong/Project2/images/redhat.png');
+}
+
+.yellowhat {
+  background-image: url('https://atdpsites.berkeley.edu/jwong/Project2/images/yellowhat.png');
+}
+
+.ground {
+  background-color: lightgray;
+}
+
+.building {
+  background-color: #fafafa;
+}
+
+.labexit {
+  background-color: maroon;
+}
+
+.table {
+  background-color: gray;
+}
+
+.hidden {
+  display: none;
+}
+
+button#battle{
+  color: initial;
+  background-color: gray;
+  background: gray;
+  border: 1px solid black;
+  font-size: initial;
+  width: initial;
+  height: initial;
+}

@@ -1,0 +1,12 @@
+.color {
+  background-color: #bffbff;
+}
+
+a {
+  color: black;
+
+}
+
+a:hover {
+  color: gray;
+}
